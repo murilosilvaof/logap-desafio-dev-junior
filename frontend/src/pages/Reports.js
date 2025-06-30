@@ -7,7 +7,7 @@ function Reports() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_BASE_URL = 'http://127.0.0.1:5000/api/relatorios';
+  const API_BASE_URL = 'https://logap-desafio-dev-junior-murilo-silva-1ekp.onrender.com';
 
   const fetchReports = async () => {
     setLoading(true);
