@@ -10,7 +10,7 @@ function ProductManagement() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_URL = 'https://logap-desafio-dev-junior-murilo-silva-1ekp.onrender.com';
+  const API_URL = 'https://logap-desafio-dev-junior-murilo-silva.onrender.com';
 
   // --- Funções de Comunicação com a API ---
 

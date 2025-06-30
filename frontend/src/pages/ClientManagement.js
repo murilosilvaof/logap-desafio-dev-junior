@@ -10,7 +10,7 @@ function ClientManagement() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_URL = 'https://logap-desafio-dev-junior-murilo-silva-1ekp.onrender.com'; // URL da API de clientes
+  const API_URL = 'https://logap-desafio-dev-junior-murilo-silva.onrender.com'; // URL da API de clientes
 
   // --- Funções de Comunicação com a API ---
 

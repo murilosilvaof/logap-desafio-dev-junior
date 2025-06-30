@@ -17,9 +17,9 @@ function OrderManagement() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_PEDIDOS_URL = 'https://logap-desafio-dev-junior-murilo-silva-1ekp.onrender.com';
-  const API_CLIENTES_URL = 'https://logap-desafio-dev-junior-murilo-silva-1ekp.onrender.com';
-  const API_PRODUTOS_URL = 'https://logap-desafio-dev-junior-murilo-silva-1ekp.onrender.com';
+  const API_PEDIDOS_URL = 'https://logap-desafio-dev-junior-murilo-silva.onrender.com';
+  const API_CLIENTES_URL = 'https://logap-desafio-dev-junior-murilo-silva.onrender.com';
+  const API_PRODUTOS_URL = 'https://logap-desafio-dev-junior-murilo-silva.onrender.com';
 
   // --- Funções de Comunicação com a API ---
 
