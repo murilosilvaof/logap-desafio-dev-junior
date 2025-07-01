@@ -12,7 +12,7 @@ function VowelAnalyzer() {
     setResult(null); 
     try {
       // Faz a requisição POST para a sua API Flask
-      const response = await fetch('https://logap-desafio-dev-junior-murilo-silva.onrender.com', {
+      const response = await fetch('https://logap-desafio-dev-junior-murilo-silva.onrender.com/api/analisar-string', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
